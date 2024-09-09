@@ -15,6 +15,8 @@ fn main() {
     println!("Health: {}", health);
     
     // shadowing to a different type
+    // this is allowed because the variable is instantiated with a different type
+    //! This is a bat practice
     let health = if height < 180 {true} else {false};
 
 }

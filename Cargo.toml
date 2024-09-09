@@ -1,0 +1,13 @@
+[workspace]
+resolver = "2"
+
+members = [
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/6-conditionals/conditionals",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/7-while-loops/user-input",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/7-while-loops/while-loops",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/8-for-loops/for-loop",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/9-break-and-continue/loop-control",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/10-match-control-flow/match-control", 
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/hashtables",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/hashtables_example",
+]
