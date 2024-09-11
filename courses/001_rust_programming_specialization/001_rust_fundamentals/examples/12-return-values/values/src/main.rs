@@ -1,9 +1,11 @@
 
 fn split_string(s: String, delimiter: char, field: usize) -> String {
     let parts: Vec<&str> = s.split(delimiter).collect();
-    // This will not compile!
-    let result = parts.get(field);
-    result.to_string()
+    // Handle the Option type and convert to String
+    match parts.get(field) {
+        Some(&str) => str.to_string(),
+        None => String::new(),
+    }
 }
 
 fn main() {

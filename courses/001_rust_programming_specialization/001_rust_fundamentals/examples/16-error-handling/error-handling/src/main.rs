@@ -26,4 +26,30 @@ fn main() {
             }
         }
     }
+
+    // // another option
+    let file = File::open("non_existent_file.txt");
+    match file {
+        Ok(file) => {
+            let reader = BufReader::new(file);
+            for line in reader.lines() {
+                match line {
+                    Ok(line) => println!("{}", line),
+                    Err(error) => {
+                        panic!("Error reading line: {}", error)
+                    }
+                }
+            }
+        },
+        Err(error) => {
+            match error.kind() {
+                std::io::ErrorKind::NotFound => {
+                    println!("File not found: {}", error)
+                }
+                _ => {
+                    println!("Error opening file: {}", error)
+                }
+            }
+        }
+    };
 }
