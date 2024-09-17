@@ -15,4 +15,6 @@ members = [
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/14-borrowing/borrowing",
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/15-panic/panicking",
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/16-error-handling/error-handling",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/handling-errors",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/handling-errors-read-file",
 ]
