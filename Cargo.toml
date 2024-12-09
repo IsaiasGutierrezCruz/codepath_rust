@@ -18,4 +18,5 @@ members = [
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/handling-errors",
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/handling-errors-read-file",
     "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/iterators",
+    "courses/001_rust_programming_specialization/001_rust_fundamentals/examples/018-extra-readings/rusty_pizza",
 ]
